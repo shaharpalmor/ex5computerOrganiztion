@@ -211,7 +211,7 @@ void doConvolution2(Image *image, int kernelScale) {
 }
 
 void myfunction(Image *image, char *srcImgpName, char *blurRsltImgName, char *sharpRsltImgName) {
-    
+
 
     // blur image
     doConvolution1(image, 9);
